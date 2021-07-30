@@ -41,6 +41,7 @@ nav .active{
 #proyectos h2{
     color: white;
     font-size: 16px;
+    text-align: center;
 }
 #proyectos img{
     height: 210px;
@@ -48,7 +49,6 @@ nav .active{
 }
 .bloque p{
     height: 90px;
-
 }
 
 #sobre-mi{
