@@ -1,91 +1,332 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 h1{
-    color: #e20000;
+    color: orangered;
     font-size: 36px;
 }
 p{
-    color: #6a6a6a;
-    font-size: 16px;
-}
-input, textarea{
-    border-radius: 15px !important
+    color: black;
+    font-size: 18px;
 }
 nav .nav-link{
-    color: #282828;
+    color: black;
+    font-size: 20px;
 }
-nav .active{
-    border: #e20000 solid 1px;
-    border-radius: 20px;
+.nav-link:hover{
+    color: orangered;
 }
 .btn{
-    background-color: white;
-    color: #370a5d;
-    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border: black solid 1px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .btn:hover{
-    background-color: #370a5d;
-    color: white;
+    background-color: orangered;
+    color: black;
 }
 #contacto{
-    background-image: url("../imagenes/fondo-contacto.png");
+    background-image: url(../imagenes/fondo-contacto-2.jfif);
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#contacto h1{
+    color: orangered;
+    font-size: 36px;
+}
+#contacto h2{
+    color: black;
+    font-size: 25px;
+}
+#contacto p{
+    color: white;
+    font-size: 18px;
+}
+#contacto input, textarea{
+    border-radius: 15px !important
+}
+#contacto header nav{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+}
+#contacto .tabla{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+}
+#contacto .form-control{
+    background-color: transparent;
+    border: black solid 1px;  
+}
+#contacto input::placeholder{
+    color: white;
+}
+#contacto textarea::placeholder{
+    color: white;
+}
+input:focus{
+    background-color: transparent;
+}
+#contacto .fa-github{
+    color: orangered;
+    font-size: 50px;
+}
+#contacto .fa-linkedin-in{
+    color: orangered;
+    background-color: transparent;
+    padding-left: 10px;
+}
+#contacto .fa-user{
+    color: orangered;
+    font-size: 30px;
+}
+#contacto .fa-map-marker-alt{
+    color: orangered;
+    font-size: 30px;
+}
+#contacto .fa-envelope{
+    color: orangered;
+    font-size: 30px;
+}
+#contacto .fa-phone-alt{
+    color: orangered;
+    font-size: 30px;
+}
+#contacto .sponsor a{
+    background-color: white;
+    color: black;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 20px 0px;
+}
+#contacto .sponsor strong{
+    background-color: white;
+    color: orangered;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+#contacto .curriculum{
+    border-radius: 20px;
+    background-color: orangered;
+}
+#contacto .fa-file-download{
+    font-size: 20px
+}
+#contacto h3{
+    font-size: 20px;
+}
+
+
 #proyectos{
-    background-image: url("../imagenes/fondo-proyectos.png");
+    background-image: url("../imagenes/fondo-proyecto.png");
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos header nav{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+}
+#proyectos .curriculum{
+    border-radius: 20px;
+    background-color: orangered;
+}
+#proyectos .fa-file-download{
+    font-size: 20px
+}
+#proyectos .fa-github{
+    color: orangered;
+    font-size: 50px;
+}
+#proyectos .fa-linkedin-in{
+    color: orangered;
+    background-color: transparent;
+    padding-left: 10px;
+}
+#proyectos .sponsor a{
+    background-color: white;
+    color: black;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 20px 0px;
+}
+#proyectos .sponsor strong{
+    background-color: white;
+    color: orangered;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+#proyectos h3{
+    font-size: 20px;
 }
 #proyectos h2{
     color: white;
-    font-size: 16px;
-    text-align: center;
+    font-size: 18px;
 }
 #proyectos img{
     height: 210px;
-    background-color: white;
+    padding: 0px;
 }
-.bloque p{
+#proyectos .bloquet{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+}
+#proyectos .bloque p{
+    padding: 0px;
     height: 90px;
+    color: white;
 }
+#proyectos .bloque a{
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+#proyectos .gradiente{
+    background-color: orangered;
+}
+
 
 #sobre-mi{
-    background-image: url("../imagenes/fondo-proyectos.png");
+    background-image: url(../imagenes/fondo-sobremi3.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
+}
+/*
+#sobre-mi section{
+    background-color: black;
+}
+*/
+#sobre-mi header nav{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+}
+#sobre-mi .curriculum{
+    border-radius: 20px;
+    background-color: orangered;
+}
+#sobre-mi .fa-file-download{
+    font-size: 20px
+}
+#sobre-mi header nav a, h3{
+    font-size: 20px;
+}
+#sobre-mi .tabla{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+}
+#sobre-mi img{
+    height: 450px;
+}
+#sobre-mi .fa-github{
+    color: orangered;
+    font-size: 50px;
+}
+#sobre-mi .fa-linkedin-in{
+    color: orangered;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 50px;
+}
+#tecnologias .container{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+    position: relative;
+    top: 80px;
+    border-radius: 20px;
+}
+#tecnologias img{
+    height: 200px;
+    background-color: white;
+}
+#tecnologias h2{
+    color: orangered;
+    font-size: 36px;
+}
+#tecnologias h3{
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+}
+#tecnologias h4{
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
 }
 
-.gradiente{
-    background: rgba(184,37,20,1);
-    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
-    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+#sobre-mi .section-2 .caja-1{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+    position: relative;
+    border-radius: 20px;
 }
-footer, footer a{
+#sobre-mi .section-2 .caja-2{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5.0px);
+    position: relative;
+    border-radius: 20px;
+}
+#sobre-mi .section-2 img{
+height: 30px;
+}
+
+
+#inicio{
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: 100%;
+}
+#inicio img{
+    height: 380px;
+}
+#inicio p{
     color: white;
+    text-align: center;
+    font-size: 30px;
+    background: transparent;
+    border-radius: 50px;
+    border-style: solid;
+    margin: 20px;
+}
+#inicio main a{
+    color: red;
+    background-color: white;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer, footer a{
+    color:white;
     font-weight: 100;
 }
 footer .fa-github {
-    font-size: 30px;
-    color: #e20000;
+    font-size: 50px;
+    color: white;
 }
 footer .fa-linkedin-in {
-    color: red;
-    background-color: white;
-    font-size: 30px;
-    border: 0px;
-    height: 32px;
-    width: 32px;
-    text-align: center;
-    padding: 8px 0 0 0; 
+    color:white;
+    background-color:transparent;
+    font-size: 50px;
     border-radius: 80px;
-    margin: 0 8px;
     }
 .fa-whatsapp{
     position: fixed;
