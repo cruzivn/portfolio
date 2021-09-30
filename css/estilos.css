@@ -207,11 +207,9 @@ input:focus{
     background-image: url(../imagenes/fondo-sobremi3.jpg);
     background-size: 100%;
 }
-/*
-#sobre-mi section{
-    background-color: black;
+#sobre-mi p{
+    color: white;
 }
-*/
 #sobre-mi header nav{
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5.0px);
@@ -271,23 +269,39 @@ input:focus{
     text-align: center;
     background-color: white;
 }
-
-#sobre-mi .section-2 .caja-1{
+#experiencias .card{
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5.0px);
     position: relative;
     border-radius: 20px;
 }
-#sobre-mi .section-2 .caja-2{
+#experiencias .card{
+    color: white;
+}
+#experiencias img{
+height: 100px;
+}
+#experiencias .fa-briefcase{
+    font-size: 90px;
+    color: orangered;
+}
+#estudios .fa-graduation-cap{
+    font-size: 90px;
+    color: orangered;
+}
+#estudios .card{
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5.0px);
     position: relative;
     border-radius: 20px;
 }
-#sobre-mi .section-2 img{
-height: 30px;
+#estudios .card{
+    color: white;
 }
-
+#estudios img{
+    height: 100px;
+}
+ 
 
 #inicio{
     background-image: url("../imagenes/fondo-contacto.png");
