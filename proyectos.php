@@ -1,3 +1,8 @@
+<?php
+
+$pg = "proyectos";
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -13,40 +18,7 @@
 </head>
 
 <body id="proyectos">
-    <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="sobre-mi.html">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="curriculum d-flex px-3 py-2 border border-dark">
-                <i class="fas fa-file-download"></i>
-                <div class="ps-3">
-                    <h3 class="m-0">Descarga mi CV</h3>
-                </div>
-        
-            </div>
-        </nav>
-    </header>
+    <?php include_once("header.php"); ?>
 
 
     <main class="container">
@@ -131,31 +103,7 @@
     </main>
 
 
-    <footer>
-        <div class="container text-center py-5">
-            <div class="row align-items-end py-5">
-                <div class="col-12 col-sm-6">
-                    <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i
-                            class="fab fa-linkedin-in"></i></a>
-
-                </div>
-                <div class="sponsor col-12 col-sm-6">
-                    <strong>Sponsor </strong> <a href="http://depcsuite.com" target="_blank"
-                        title="depcsuite.com">DePCsuite</a>
-                </div>
-
-            </div>
-
-        </div>
-    </footer>
-
-
-    <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=541131159759" target="_blank"
-            title="Enviar mensaje directo Whatsapp"><i class="fab fa-whatsapp"></i></a>
-    </div>
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <?php include_once("footer.php"); ?>
 </body>
 
 </html>

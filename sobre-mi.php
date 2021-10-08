@@ -1,3 +1,8 @@
+<?php
+
+$pg = "sobre-mi";
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -13,42 +18,8 @@
 </head>
 
 <body id="sobre-mi">
-    <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="sobre-mi.html">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pe-5" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="curriculum d-flex px-3 py-2 border border-dark">
-                <i class="fas fa-file-download"></i>
-                <div class="ps-3">
-                    <h3 class="m-0">Descarga mi CV</h3>
-                </div>
 
-            </div>
-        </nav>
-    </header>
-
-
+    <?php include_once("header.php"); ?>
     <main>
         <div class="container tabla">
             <div class="row">
@@ -77,10 +48,8 @@
                 <div class="container text-center">
                     <div class="row align-items-end py-4">
                         <div class="col-12 col-sm-6">
-                            <a href="https://github.com" target="_blank" title="Github"><i
-                                    class="fab fa-github"></i></a>
-                            <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i
-                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
 
                         </div>
 
@@ -99,8 +68,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/jquery-logo.png" alt="jquery"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/jquery-logo.png" alt="jquery" class="img-fluid">
                         <div class="col-12">
                             <h3>JQUERY</h3>
                         </div>
@@ -115,20 +83,17 @@
                             <h3>CSS</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/javascript-logo.png" alt="javascript"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/javascript-logo.png" alt="javascript" class="img-fluid">
                         <div class="col-12">
                             <h3>JAVASCRIPT</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/php-logo.png" alt="php"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/php-logo.png" alt="php" class="img-fluid">
                         <div class="col-12">
                             <h3>PHP</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/bootstrap-logo.jpg" alt="bootstrap"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/bootstrap-logo.jpg" alt="bootstrap" class="img-fluid">
                         <div class="col-12">
                             <h3>BOOTSTRAP</h3>
                         </div>
@@ -138,20 +103,17 @@
 
 
                 <div class="row py-3">
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/react-logo.png" alt="react"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/react-logo.png" alt="react" class="img-fluid">
                         <div class="col-12">
                             <h4>REACT</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/laravel.png" alt="laravel"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/laravel.png" alt="laravel" class="img-fluid">
                         <div class="col-12">
                             <h4>LARAVEL</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/mysql.png" alt="mysql"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/mysql.png" alt="mysql" class="img-fluid">
                         <div class="col-12">
                             <h4>MYSQL</h4>
                         </div>
@@ -161,14 +123,12 @@
                             <h4>GIT</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/xampp.png" alt="xampp"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/xampp.png" alt="xampp" class="img-fluid">
                         <div class="col-12">
                             <h4>XAMPP</h4>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/sin-logo.png" alt="sin-logo"
-                            class="img-fluid">
+                    <div class="col-12 col-sm-2"><img src="../portfolio/imagenes/sin-logo.png" alt="sin-logo" class="img-fluid">
                         <div class="col-12">
                             <h4>SIN LOGO</h4>
                         </div>
@@ -295,8 +255,7 @@
 
 
     <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=541131159759" target="_blank"
-            title="Enviar mensaje directo Whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=541131159759" target="_blank" title="Enviar mensaje directo Whatsapp"><i class="fab fa-whatsapp"></i></a>
     </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 
